@@ -1,12 +1,12 @@
 package com.tejeet.tataclicq_clone;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import android.app.ActionBar;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.os.Build;
@@ -41,8 +41,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setIcon(R.drawable.ic_baseline_search_24);
+
+//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.home_launcher);
+//        getSupportActionBar().setHomeButtonEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mBotoomNavigation = (BottomNavigationView) findViewById(R.id.nav_view);
 

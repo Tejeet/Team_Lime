@@ -1,0 +1,24 @@
+com/tejeet/tataclicq_clone/ViewHolders/HomeScreenTitleViewHolder.java
+ com.tejeet.tataclicq_clone.ViewHolders.HomeScreenTitleViewHolder
+com/tejeet/tataclicq_clone/SplashScreen.java
+ com.tejeet.tataclicq_clone.SplashScreen
+ com.tejeet.tataclicq_clone.SplashScreen$1
+com/tejeet/tataclicq_clone/Adapters/HomeScreenTitleAdapter.java
+ com.tejeet.tataclicq_clone.Adapters.HomeScreenTitleAdapter
+com/tejeet/tataclicq_clone/Fragments/HomeFragment.java
+ com.tejeet.tataclicq_clone.Fragments.HomeFragment
+com/tejeet/tataclicq_clone/MainActivity.java
+ com.tejeet.tataclicq_clone.MainActivity
+ com.tejeet.tataclicq_clone.MainActivity$1
+com/tejeet/tataclicq_clone/BuildConfig.java
+ com.tejeet.tataclicq_clone.BuildConfig
+com/tejeet/tataclicq_clone/Fragments/MyAccountFragment.java
+ com.tejeet.tataclicq_clone.Fragments.MyAccountFragment
+com/tejeet/tataclicq_clone/Fragments/BrandsFragment.java
+ com.tejeet.tataclicq_clone.Fragments.BrandsFragment
+com/tejeet/tataclicq_clone/Fragments/CategoryFragment.java
+ com.tejeet.tataclicq_clone.Fragments.CategoryFragment
+com/tejeet/tataclicq_clone/DataNModels/ModelTopHeaderImages.java
+ com.tejeet.tataclicq_clone.DataNModels.ModelTopHeaderImages
+com/tejeet/tataclicq_clone/Fragments/MyBagFragment.java
+ com.tejeet.tataclicq_clone.Fragments.MyBagFragment
