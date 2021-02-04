@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
+import com.tejeet.tataclicq_clone.DataNModels.SharedPrefData;
 import com.tejeet.tataclicq_clone.Fragments.BrandsFragment;
 import com.tejeet.tataclicq_clone.Fragments.CategoryFragment;
 import com.tejeet.tataclicq_clone.Fragments.HomeFragment;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "tag";
 
     private BottomNavigationView mBotoomNavigation;
+    private SharedPrefData cn;
 
 
     @Override
@@ -41,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle("Welcome Tejeet");
+        cn = new SharedPrefData();
+
+        getSupportActionBar().setTitle("Welcome "+cn.getName(MainActivity.this));
 
         mBotoomNavigation = (BottomNavigationView) findViewById(R.id.nav_view);
 
