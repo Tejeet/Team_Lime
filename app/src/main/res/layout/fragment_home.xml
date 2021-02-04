@@ -11,14 +11,55 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="8dp"
         >
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="wrap_content"
             android:id="@+id/rcvTitleImages"
             android:orientation="horizontal"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/newoncliq"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcvShopNowImages"
+            android:orientation="horizontal"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/seasonoflove"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lifestylecorner"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/jwellry"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mensstyle"
             />
 
     </LinearLayout>

@@ -41,14 +41,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.home_launcher);
-//        getSupportActionBar().setHomeButtonEnabled(true);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Welcome Tejeet");
 
         mBotoomNavigation = (BottomNavigationView) findViewById(R.id.nav_view);
 
-        mBotoomNavigation.setSelectedItemId(R.id.navigation_home);
+        mBotoomNavigation.setSelectedItemId(R.id.navigation_Brands);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
 
@@ -64,30 +61,35 @@ public class MainActivity extends AppCompatActivity {
                         vibrateSense();
                         getSupportActionBar().setTitle("Home");
                         selctedFragment = new HomeFragment();
+                        Log.d(TAG, "Show Home Fragment ");
                         break;
 
                     case R.id.navigation_category:
                         vibrateSense();
                         getSupportActionBar().setTitle("Category");
                         selctedFragment = new CategoryFragment();
+                        Log.d(TAG, "Show Category Fragment ");
                         break;
 
                     case R.id.navigation_Brands:
                         vibrateSense();
                         getSupportActionBar().setTitle("Brand");
                         selctedFragment = new BrandsFragment();
+                        Log.d(TAG, "Show Brand Fragment ");
                         break;
 
                     case R.id.navigation_myaccount:
                         vibrateSense();
                         getSupportActionBar().setTitle("My Account");
                         selctedFragment = new MyAccountFragment();
+                        Log.d(TAG, "Show My Account Fragment ");
                         break;
 
                     case R.id.navigation_mybag:
                         vibrateSense();
                         getSupportActionBar().setTitle("My Cart");
                         selctedFragment = new MyBagFragment();
+                        Log.d(TAG, "Show My Cart Fragment ");
                         break;
 
                 }

@@ -1,6 +1,7 @@
 package com.tejeet.tataclicq_clone.Adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tejeet.tataclicq_clone.DataNModels.ModelTopHeaderImages;
+import com.tejeet.tataclicq_clone.Listners.CategoryClickListner;
 import com.tejeet.tataclicq_clone.R;
 import com.tejeet.tataclicq_clone.ViewHolders.HomeScreenTitleViewHolder;
 
@@ -17,11 +19,13 @@ import java.util.ArrayList;
 public class HomeScreenTitleAdapter extends RecyclerView.Adapter<HomeScreenTitleViewHolder> {
 
     private ArrayList mImagesList;
-    private Context mContext;
+    private CategoryClickListner categoryClickListner;
 
-    public HomeScreenTitleAdapter(ArrayList<ModelTopHeaderImages> mImagesList, Context mContext) {
+    private static final String TAG = "tag";
+
+    public HomeScreenTitleAdapter(ArrayList mImagesList, CategoryClickListner categoryClickListner) {
         this.mImagesList = mImagesList;
-        this.mContext = mContext;
+        this.categoryClickListner = categoryClickListner;
     }
 
     @NonNull
@@ -29,7 +33,7 @@ public class HomeScreenTitleAdapter extends RecyclerView.Adapter<HomeScreenTitle
     public HomeScreenTitleViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_title_images_items, parent, false);
-        return new HomeScreenTitleViewHolder(view);
+        return new HomeScreenTitleViewHolder(view, categoryClickListner);
 
     }
 
@@ -39,11 +43,11 @@ public class HomeScreenTitleAdapter extends RecyclerView.Adapter<HomeScreenTitle
         ModelTopHeaderImages data = (ModelTopHeaderImages) mImagesList.get(position);
         holder.setData(data);
 
-
     }
 
     @Override
     public int getItemCount() {
+        Log.d(TAG, "List Size is "+ mImagesList.size());
         return mImagesList.size();
     }
 }

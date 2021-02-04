@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">TataClicq_Clone</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Tata Cliq Clone</string>
+
     <string name="title_nav_home">Home</string>
 </resources>

@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/navigation_Brands"
-        android:icon="@drawable/nav_bag"
+        android:icon="@drawable/nav_brand"
         android:title="Brands" />
 
     <item
