@@ -27,7 +27,7 @@ public class ShopNowViewHolder extends RecyclerView.ViewHolder {
 
     public void setData(ModelShowNowImages data){
 
-        Log.d(TAG, "Setting Image with ID is "+data.getImageID());
+//        Log.d(TAG, "Setting Image with ID is "+data.getImageID());
         mImageTitle.setImageResource(data.getImageID());
 
         mImageTitle.setOnClickListener(new View.OnClickListener() {

@@ -47,7 +47,6 @@ public class HomeScreenTitleAdapter extends RecyclerView.Adapter<HomeScreenTitle
 
     @Override
     public int getItemCount() {
-        Log.d(TAG, "List Size is "+ mImagesList.size());
         return mImagesList.size();
     }
 }

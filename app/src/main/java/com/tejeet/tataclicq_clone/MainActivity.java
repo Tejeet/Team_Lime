@@ -27,6 +27,7 @@ import com.tejeet.tataclicq_clone.Fragments.CategoryFragment;
 import com.tejeet.tataclicq_clone.Fragments.HomeFragment;
 import com.tejeet.tataclicq_clone.Fragments.MyAccountFragment;
 import com.tejeet.tataclicq_clone.Fragments.MyBagFragment;
+import com.tejeet.tataclicq_clone.SQLData.DBHandler;
 
 import org.json.JSONObject;
 
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView mBotoomNavigation;
     private SharedPrefData cn;
+    private DBHandler dbHandler;
 
 
     @Override
@@ -44,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         cn = new SharedPrefData();
+        dbHandler = new DBHandler(this);
+
+        Log.d(TAG, "Cart Size is "+dbHandler.getmycartItems().size());
 
         getSupportActionBar().setTitle("Welcome "+ cn.getName(MainActivity.this));
 

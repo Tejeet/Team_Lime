@@ -28,7 +28,7 @@ public class ClickFavouriteViewHolder extends RecyclerView.ViewHolder {
 
     public void setData(ModelClicqFavoritemages data){
 
-        Log.d(TAG, "Setting Image with ID is "+data.getImageID());
+      //  Log.d(TAG, "Setting Image with ID is "+data.getImageID());
         mImageTitle.setImageResource(data.getImageID());
 
         mImageTitle.setOnClickListener(new View.OnClickListener() {

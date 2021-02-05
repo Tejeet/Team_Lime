@@ -49,7 +49,6 @@ public class CliqFavouriteAdapter extends RecyclerView.Adapter<ClickFavouriteVie
 
     @Override
     public int getItemCount() {
-        Log.d(TAG, "List Size is "+ mImagesList.size());
         return mImagesList.size();
     }
 }

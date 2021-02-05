@@ -49,7 +49,7 @@ public class ShopNowAdapter extends RecyclerView.Adapter<ShopNowViewHolder> {
 
     @Override
     public int getItemCount() {
-        Log.d(TAG, "List Size is "+ mImagesList.size());
+       // Log.d(TAG, "List Size is "+ mImagesList.size());
         return mImagesList.size();
     }
 }

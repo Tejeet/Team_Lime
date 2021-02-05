@@ -45,6 +45,8 @@ public class Products extends AppCompatActivity implements ProductClickListner {
         assert getSupportActionBar() != null;   //null check
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        getSupportActionBar().setTitle("Products");
+
         mRecyclerView = findViewById(R.id.rcvProducts);
         mProgress = findViewById(R.id.pbProgressBar);
 

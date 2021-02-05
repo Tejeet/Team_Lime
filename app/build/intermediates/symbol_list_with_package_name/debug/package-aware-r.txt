@@ -1623,6 +1623,7 @@ drawable design_snackbar_background
 drawable home_launcher
 drawable ic_baseline_arrow_right_alt_24
 drawable ic_baseline_bookmark_border_24
+drawable ic_baseline_local_shipping_24
 drawable ic_baseline_search_24
 drawable ic_bell
 drawable ic_brand
@@ -1799,6 +1800,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnCheckout
 id btnContineShopping
 id btnFaceBook
 id btnGoogle
@@ -1838,6 +1840,7 @@ id cos
 id custom
 id customPanel
 id cut
+id cvMyCartRow
 id cvProductRow
 id date_picker_actions
 id decelerate
@@ -1916,6 +1919,7 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id ivClickFavoriteImages
+id ivmycartProductImage
 id ivproductDetails
 id ivproductImage
 id ivshopnowImages
@@ -1932,7 +1936,10 @@ id linear
 id listMode
 id list_item
 id llCategotyRow
+id llTotalView
 id llbotombar
+id llemptyView
+id llmyCartView
 id lottieAddtoCard
 id lottie_layer_name
 id masked
@@ -2008,6 +2015,7 @@ id progress_horizontal
 id radio
 id ratio
 id rcvCategory
+id rcvMyCart
 id rcvProducts
 id rcvShopNowImages
 id rcvTitleImages
@@ -2124,13 +2132,17 @@ id triangle
 id tvBrandName
 id tvCallus
 id tvCategoryName
+id tvDeliveryDate
 id tvLogout
 id tvProductName
 id tvProductPrice
+id tvProductRemove
 id tvProductTitle
 id tvUserName
 id tvallrights
 id tvbrandName
+id tvcartTotal
+id tvprouctqty
 id tvtataclicqDetails
 id unchecked
 id uniform
@@ -2234,6 +2246,7 @@ layout fragment_my_account
 layout fragment_my_bag
 layout layout_category_items
 layout layout_clickfavorite_images_items
+layout layout_mycart_items
 layout layout_product_items
 layout layout_shownow_images_items
 layout layout_title_images_items

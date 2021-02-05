@@ -32,7 +32,7 @@ public class CategoryViewHolder extends RecyclerView.ViewHolder {
 
     public void setData(ModelCategory data, int position){
 
-        Log.d(TAG, "Category Name is "+data.getName());
+      //  Log.d(TAG, "Category Name is "+data.getName());
         mCategoryName.setText(data.getName());
 
         mCategoryView.setOnClickListener(new View.OnClickListener() {

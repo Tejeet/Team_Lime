@@ -17,7 +17,9 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory;
 import com.tejeet.tataclicq_clone.DataNModels.DataNConstants;
+import com.tejeet.tataclicq_clone.DataNModels.MyCartModel;
 import com.tejeet.tataclicq_clone.DataNModels.ProductDetailsDTO;
+import com.tejeet.tataclicq_clone.SQLData.DBHandler;
 
 import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 
@@ -31,6 +33,9 @@ public class ProductDetails extends AppCompatActivity {
     private ProductDetailsDTO pd;
 
     private LinearLayout mAddtoCartView;
+
+    private DBHandler dbHandler;
+    private MyCartModel mycartData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +54,8 @@ public class ProductDetails extends AppCompatActivity {
 
         mAddtoCart = findViewById(R.id.btnaddtocart);
         mAddtoCartView = findViewById(R.id.lottieAddtoCard);
+
+        dbHandler = new DBHandler(this);
 
         mAddtoCartView.setVisibility(View.INVISIBLE);
 
@@ -87,6 +94,9 @@ public class ProductDetails extends AppCompatActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
+
+                        mycartData = new MyCartModel(pd.getId(), pd.getBrandname(), pd.getName(), pd.getPrice(), pd.getDescription(), pd.getFileurl());
+                        dbHandler.addtoCart(mycartData);
                         mAddtoCartView.setVisibility(View.INVISIBLE);
                         startActivity(new Intent(ProductDetails.this, MainActivity.class));
                     }
