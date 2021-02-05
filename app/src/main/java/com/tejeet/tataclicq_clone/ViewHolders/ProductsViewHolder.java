@@ -1,5 +1,6 @@
 package com.tejeet.tataclicq_clone.ViewHolders;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -10,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.tejeet.tataclicq_clone.DataNModels.ProductDetailsDTO;
+import com.tejeet.tataclicq_clone.Listners.ProductClickListner;
 import com.tejeet.tataclicq_clone.R;
 
 public class ProductsViewHolder extends RecyclerView.ViewHolder {
@@ -18,9 +20,14 @@ public class ProductsViewHolder extends RecyclerView.ViewHolder {
     TextView mBrandName, mProductName, mProductPrice;
     CardView mProductRowRow;
 
-    public ProductsViewHolder(@NonNull View itemView) {
+    private static final String TAG = "tag";
+
+    private ProductClickListner productClickListner;
+
+    public ProductsViewHolder(@NonNull View itemView, ProductClickListner productClickListner) {
         super(itemView);
 
+        this.productClickListner = productClickListner;
         mProductImage = itemView.findViewById(R.id.ivproductImage);
 
         mBrandName = itemView.findViewById(R.id.tvBrandName);
@@ -39,5 +46,13 @@ public class ProductsViewHolder extends RecyclerView.ViewHolder {
         Glide.with(mProductImage.getContext())
                 .load(data.getFileurl())
                 .into(mProductImage);
+
+        mProductRowRow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(TAG, "Product Clicked is "+data.getName() );
+               productClickListner.onProductClick(data);
+            }
+        });
     }
 }

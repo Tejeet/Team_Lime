@@ -1,6 +1,7 @@
 package com.tejeet.tataclicq_clone.Adapters;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.tejeet.tataclicq_clone.DataNModels.ProductDetailsDTO;
+import com.tejeet.tataclicq_clone.Listners.ProductClickListner;
 import com.tejeet.tataclicq_clone.ProductDetails;
 import com.tejeet.tataclicq_clone.R;
 import com.tejeet.tataclicq_clone.ViewHolders.ProductsViewHolder;
@@ -33,12 +35,12 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsViewHolder> {
 
     private List<ProductDetailsDTO> productItems;
     private List<ProductDetailsDTO> productItemsUnfiltered;
-    private Activity mActivity;
+    private Context mContext;
 
-    public ProductsAdapter(List<ProductDetailsDTO> listItems , Activity activity) {
+    public ProductsAdapter(List<ProductDetailsDTO> listItems , Context mContext) {
         this.productItems = listItems;
         this.productItemsUnfiltered = new ArrayList<>(listItems);
-        this.mActivity = activity;
+        this.mContext = mContext;
 
     }
 
@@ -48,7 +50,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsViewHolder> {
     public ProductsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_product_items, parent, false);
 
-        return new ProductsViewHolder(view);
+        return new ProductsViewHolder(view, (ProductClickListner) mContext);
     }
 
     @Override

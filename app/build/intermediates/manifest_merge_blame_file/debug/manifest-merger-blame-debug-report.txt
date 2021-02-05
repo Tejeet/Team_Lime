@@ -24,7 +24,7 @@
 14-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:8:22-73
 15
 16    <application
-16-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:10:5-33:19
+16-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:10:5-35:19
 17        android:allowBackup="true"
 17-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,7 +34,7 @@
 21        android:icon="@drawable/launcher_logo"
 21-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:12:9-47
 22        android:label="@string/app_name"
-22-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:13:9-41
+22-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:13:9-42
 23        android:roundIcon="@drawable/launcher_logo"
 23-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:14:9-52
 24        android:supportsRtl="true"
@@ -45,37 +45,43 @@
 27        android:usesCleartextTraffic="true" >
 27-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:17:9-44
 28        <activity
-28-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:18:9-20:15
-29            android:name="com.tejeet.tataclicq_clone.LoginActivity"
-29-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:18:19-48
+28-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:18:9-19:75
+29            android:name="com.tejeet.tataclicq_clone.SignupActivity"
+29-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:18:19-49
 30            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
 30-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:19:13-72
-31        <activity android:name="com.tejeet.tataclicq_clone.Products" />
-31-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:21:9-46
-31-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:21:19-43
-32        <activity android:name="com.tejeet.tataclicq_clone.ProductDetails" />
-32-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:22:9-52
-32-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:22:19-49
-33        <activity
-33-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:23:9-31:20
-34            android:name="com.tejeet.tataclicq_clone.SplashScreen"
-34-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:24:13-41
-35            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
-35-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:25:13-81
-36            <intent-filter>
-36-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:26:13-30:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:27:17-69
-37-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:27:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:29:17-77
-39-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:29:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity android:name="com.tejeet.tataclicq_clone.MainActivity" />
-42-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:32:9-50
-42-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:32:19-47
-43    </application>
-44
-45</manifest>
+31        <activity
+31-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:20:9-22:75
+32            android:name="com.tejeet.tataclicq_clone.LoginActivity"
+32-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:21:13-42
+33            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+33-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:22:13-72
+34        <activity android:name="com.tejeet.tataclicq_clone.Products" />
+34-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:23:9-46
+34-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:23:19-43
+35        <activity android:name="com.tejeet.tataclicq_clone.ProductDetails" />
+35-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:24:9-52
+35-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:24:19-49
+36        <activity
+36-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:25:9-33:20
+37            android:name="com.tejeet.tataclicq_clone.SplashScreen"
+37-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:26:13-41
+38            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
+38-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:27:13-81
+39            <intent-filter>
+39-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:28:13-32:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:29:17-69
+40-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:29:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:31:17-77
+42-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:31:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.tejeet.tataclicq_clone.MainActivity" />
+45-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:34:9-50
+45-->D:\GitHub\Team_Lime\app\src\main\AndroidManifest.xml:34:19-47
+46    </application>
+47
+48</manifest>

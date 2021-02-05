@@ -24,20 +24,20 @@
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\lifestylecorner.jpg"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_brand.xml.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable-v24\\ic_brand.xml"
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\raw_addtocart.json.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\raw\\addtocart.json"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_brand.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable-v24\\ic_brand.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_list.png.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\nav_list.png"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_category.xml.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\fragment_category.xml"
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tata_cliq_logo.png.flat",
@@ -46,6 +46,10 @@
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_luxury.jpg.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\top_luxury.jpg"
+    },
+    {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_category.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\fragment_category.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_design_signup.xml.flat",
@@ -70,6 +74,10 @@
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\raw_addtocartgreen.json.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\raw\\addtocartgreen.json"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_womenwear.jpg.flat",
@@ -136,12 +144,12 @@
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\anim\\exit_first.xml"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_click_fav_khadi.jpg.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\click_fav_khadi.jpg"
-    },
-    {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tatacliqlogo.png.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable-v24\\tatacliqlogo.png"
+    },
+    {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_click_fav_khadi.jpg.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\click_fav_khadi.jpg"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -156,12 +164,12 @@
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable-v24\\ic_gift_card.xml"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_details.xml.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\activity_product_details.xml"
-    },
-    {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_appliances.jpg.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\top_appliances.jpg"
+    },
+    {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_details.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\activity_product_details.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit_second.xml.flat",
@@ -240,12 +248,12 @@
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\click_fav_whirlpool.jpg"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_bookmark_border_24.xml.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\ic_baseline_bookmark_border_24.xml"
+    },
+    {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_smartphone.jpg.flat",
@@ -276,24 +284,28 @@
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\shopnow_mobile.jpg"
     },
     {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_click_fav_westside.jpg.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\click_fav_westside.jpg"
+    },
+    {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_click_fav_titan.jpg.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\click_fav_titan.jpg"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_click_fav_westside.jpg.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\click_fav_westside.jpg"
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sachin_image.jpg.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable-v24\\sachin_image.jpg"
     },
     {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_shownow_images_items.xml.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\layout_shownow_images_items.xml"
-    },
-    {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\anim_enter_second.xml.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\anim\\enter_second.xml"
+    },
+    {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_shownow_images_items.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\layout_shownow_images_items.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_title_images_items.xml.flat",
@@ -316,16 +328,16 @@
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\layout\\layout_product_items.xml"
     },
     {
+        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_design_fb_bg.xml.flat",
+        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable-v24\\design_fb_bg.xml"
+    },
+    {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shopnow_vivo.jpg.flat",
         "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable\\shopnow_vivo.jpg"
-    },
-    {
-        "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_design_fb_bg.xml.flat",
-        "source": "D:\\GitHub\\Team_Lime\\app\\src\\main\\res\\drawable-v24\\design_fb_bg.xml"
     },
     {
         "merged": "D:\\GitHub\\Team_Lime\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_right_alt_24.xml.flat",

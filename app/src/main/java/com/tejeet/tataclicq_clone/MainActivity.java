@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         cn = new SharedPrefData();
 
-        getSupportActionBar().setTitle("Welcome "+cn.getName(MainActivity.this));
+        getSupportActionBar().setTitle("Welcome "+ cn.getName(MainActivity.this));
 
         mBotoomNavigation = (BottomNavigationView) findViewById(R.id.nav_view);
 

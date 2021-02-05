@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private SharedPrefData cn;
     private EditText mUserID, mUserPass;
-    private Button mLoginBtn;
+    private Button mLoginBtn, mSignupBtn;
     private ProgressDialog progressDialog;
 
     private static final String TAG = "tag";
@@ -40,6 +40,17 @@ public class LoginActivity extends AppCompatActivity {
         mUserPass = findViewById(R.id.etUserPass);
 
         mLoginBtn = findViewById(R.id.btnLogin);
+        mSignupBtn = findViewById(R.id.btnSignup);
+
+
+        mSignupBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, SignupActivity.class));
+                overridePendingTransition(R.anim.enter_first, R.anim.enter_second);
+                finish();
+            }
+        });
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override

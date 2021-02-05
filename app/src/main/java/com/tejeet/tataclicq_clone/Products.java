@@ -17,6 +17,7 @@ import com.tejeet.tataclicq_clone.ApiClients.ApiClient;
 import com.tejeet.tataclicq_clone.DataNModels.DataNConstants;
 import com.tejeet.tataclicq_clone.DataNModels.ProductDetailsDTO;
 import com.tejeet.tataclicq_clone.DataNModels.ResponseDTO;
+import com.tejeet.tataclicq_clone.Listners.ProductClickListner;
 import com.tejeet.tataclicq_clone.Networks.Network;
 
 import java.util.ArrayList;
@@ -25,7 +26,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class Products extends AppCompatActivity {
+public class Products extends AppCompatActivity implements ProductClickListner {
 
     private RecyclerView mRecyclerView;
     private ProductsAdapter mAdapter;
@@ -112,4 +113,17 @@ public class Products extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onProductClick(ProductDetailsDTO data) {
+
+        Intent intent = new Intent(Products.this, ProductDetails.class);
+
+        Bundle bundle = new Bundle();
+
+        bundle.putSerializable(DataNConstants.KEY_PRODUCT_DETAILS_MODEL, data);
+        intent.putExtras(bundle);
+
+        startActivity(intent);
+
+    }
 }

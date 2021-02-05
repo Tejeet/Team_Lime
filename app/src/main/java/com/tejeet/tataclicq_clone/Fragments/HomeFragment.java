@@ -47,7 +47,6 @@ public class HomeFragment extends Fragment implements CategoryClickListner {
 
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -561,6 +561,23 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr lottieAnimationViewStyle
+attr lottie_autoPlay
+attr lottie_cacheComposition
+attr lottie_colorFilter
+attr lottie_enableMergePathsForKitKatAndAbove
+attr lottie_fallbackRes
+attr lottie_fileName
+attr lottie_imageAssetsFolder
+attr lottie_loop
+attr lottie_progress
+attr lottie_rawRes
+attr lottie_renderMode
+attr lottie_repeatCount
+attr lottie_repeatMode
+attr lottie_scale
+attr lottie_speed
+attr lottie_url
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -1774,6 +1791,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id automatic
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1785,6 +1803,11 @@ id btnContineShopping
 id btnFaceBook
 id btnGoogle
 id btnLogin
+id btnLoginBack
+id btnSignup
+id btnaddtocart
+id btnbookmark
+id btnbuynow
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1849,7 +1872,10 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id etUserEmail
 id etUserID
+id etUserMobile
+id etUserName
 id etUserPass
 id exitUntilCollapsed
 id expand_activities_button
@@ -1874,6 +1900,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id hardware
 id hideable
 id home
 id homeAsUp
@@ -1889,6 +1916,7 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id ivClickFavoriteImages
+id ivproductDetails
 id ivproductImage
 id ivshopnowImages
 id ivtopImages
@@ -1904,6 +1932,9 @@ id linear
 id listMode
 id list_item
 id llCategotyRow
+id llbotombar
+id lottieAddtoCard
+id lottie_layer_name
 id masked
 id media_actions
 id menu_item
@@ -1982,6 +2013,8 @@ id rcvShopNowImages
 id rcvTitleImages
 id rcvbrandHub
 id rectangles
+id restart
+id reverse
 id reverseSawtooth
 id right
 id right_icon
@@ -2023,6 +2056,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id software
 id spacer
 id spline
 id split_action_bar
@@ -2091,10 +2125,12 @@ id tvBrandName
 id tvCallus
 id tvCategoryName
 id tvLogout
+id tvProductName
 id tvProductPrice
 id tvProductTitle
 id tvUserName
 id tvallrights
+id tvbrandName
 id tvtataclicqDetails
 id unchecked
 id uniform
@@ -2173,6 +2209,7 @@ layout activity_login
 layout activity_main
 layout activity_product_details
 layout activity_products
+layout activity_signup
 layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2266,6 +2303,8 @@ menu setting_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw addtocart
+raw addtocartgreen
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3113,6 +3152,7 @@ styleable Layout android_orientation android_layout_width android_layout_height 
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

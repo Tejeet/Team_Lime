@@ -26,6 +26,9 @@
         android:theme="@style/Theme.TataClicq_Clone"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.tejeet.tataclicq_clone.SignupActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
             android:name="com.tejeet.tataclicq_clone.LoginActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name="com.tejeet.tataclicq_clone.Products" />
