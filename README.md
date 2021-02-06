@@ -10,6 +10,11 @@ Original App | #Cloned App
  --- | --- 
  ![Original Tata CLiQ](example/originalsm.gif) | ![Cloned Tata CLiQ](example/clonedsm.gif)
 
+Some Extra Features which are used are listed below
+- Welcome SMS [3rd Party SMS Server](https://tejeet.com/) 
+- Confirmation Call [3rd Party Calling API](https://tejeet.com/) 
+- Built With Own Custom Data [Checkout Here](http://teamlime.tejeet.com/)
+
 
 This Project is made in Java Language with Android Studio IDE. We have used the core Java and some third party dependency as mentioned below
 Dependency Used 
