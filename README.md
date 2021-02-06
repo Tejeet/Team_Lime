@@ -8,7 +8,7 @@ We are cloning this app [Tata CLiQ](https://play.google.com/store/apps/details?i
 
 Original App | #Cloned App
  --- | --- 
- ![Original Tata CLiQ](example/originalsm.gif) | ![Cloned Tata CLiQ](example/clonedsm.gif)
+ ![Original Tata CLiQ](example/originaltatacliq.gif) | ![Cloned Tata CLiQ](example/clonedtatacliq.gif)
 
 Some Extra Features which are used are listed below
 - Welcome SMS [3rd Party SMS Server](https://tejeet.com/) 
