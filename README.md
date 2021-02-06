@@ -13,7 +13,7 @@ Original App | #Cloned App
 Some Extra Features which are used are listed below
 - Welcome SMS [3rd Party SMS Server](https://tejeet.com/) 
 - Confirmation Call [3rd Party Calling API](https://tejeet.com/) 
-- Built With Own Custom Data [Checkout Here](http://teamlime.tejeet.com/)
+- Built With Own Custom Data [Checkout Here](https://teamlime.tejeet.com/)
 
 
 This Project is made in Java Language with Android Studio IDE. We have used the core Java and some third party dependency as mentioned below
