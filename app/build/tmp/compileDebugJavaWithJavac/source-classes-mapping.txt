@@ -10,15 +10,14 @@ com/tejeet/tataclicq_clone/DataNModels/SharedPrefData.java
  com.tejeet.tataclicq_clone.DataNModels.SharedPrefData
 com/tejeet/tataclicq_clone/Listners/MyCartProductClickListner.java
  com.tejeet.tataclicq_clone.Listners.MyCartProductClickListner
-com/tejeet/tataclicq_clone/Fragments/CategoryFragment.java
- com.tejeet.tataclicq_clone.Fragments.CategoryFragment
+com/tejeet/tataclicq_clone/DataNModels/SignupResponseDTO.java
+ com.tejeet.tataclicq_clone.DataNModels.SignupResponseDTO
 com/tejeet/tataclicq_clone/Products.java
  com.tejeet.tataclicq_clone.Products
  com.tejeet.tataclicq_clone.Products$1
-com/tejeet/tataclicq_clone/ProductDetails.java
- com.tejeet.tataclicq_clone.ProductDetails
- com.tejeet.tataclicq_clone.ProductDetails$1
- com.tejeet.tataclicq_clone.ProductDetails$1$1
+com/tejeet/tataclicq_clone/ViewHolders/ClickFavouriteViewHolder.java
+ com.tejeet.tataclicq_clone.ViewHolders.ClickFavouriteViewHolder
+ com.tejeet.tataclicq_clone.ViewHolders.ClickFavouriteViewHolder$1
 com/tejeet/tataclicq_clone/Listners/ProductClickListner.java
  com.tejeet.tataclicq_clone.Listners.ProductClickListner
 com/tejeet/tataclicq_clone/DataNModels/ModelClicqFavoritemages.java
@@ -31,6 +30,8 @@ com/tejeet/tataclicq_clone/Fragments/HomeFragment.java
  com.tejeet.tataclicq_clone.Fragments.HomeFragment
 com/tejeet/tataclicq_clone/DataNModels/LoginResponseDTO.java
  com.tejeet.tataclicq_clone.DataNModels.LoginResponseDTO
+com/tejeet/tataclicq_clone/DataNModels/DataDTO.java
+ com.tejeet.tataclicq_clone.DataNModels.DataDTO
 com/tejeet/tataclicq_clone/DataNModels/ResponseDTO.java
  com.tejeet.tataclicq_clone.DataNModels.ResponseDTO
 com/tejeet/tataclicq_clone/Fragments/MyAccountFragment.java
@@ -40,8 +41,8 @@ com/tejeet/tataclicq_clone/Fragments/MyAccountFragment.java
  com.tejeet.tataclicq_clone.Fragments.MyAccountFragment$1$2
 com/tejeet/tataclicq_clone/Fragments/BrandsFragment.java
  com.tejeet.tataclicq_clone.Fragments.BrandsFragment
-com/tejeet/tataclicq_clone/DataNModels/SignupResponseDTO.java
- com.tejeet.tataclicq_clone.DataNModels.SignupResponseDTO
+com/tejeet/tataclicq_clone/Listners/CategoryClickListner.java
+ com.tejeet.tataclicq_clone.Listners.CategoryClickListner
 com/tejeet/tataclicq_clone/ViewHolders/ShopNowViewHolder.java
  com.tejeet.tataclicq_clone.ViewHolders.ShopNowViewHolder
  com.tejeet.tataclicq_clone.ViewHolders.ShopNowViewHolder$1
@@ -57,6 +58,8 @@ com/tejeet/tataclicq_clone/Adapters/CategoryAdapter.java
  com.tejeet.tataclicq_clone.Adapters.CategoryAdapter
 com/tejeet/tataclicq_clone/DataNModels/DataNConstants.java
  com.tejeet.tataclicq_clone.DataNModels.DataNConstants
+com/tejeet/tataclicq_clone/DataNModels/CallResponseDTO.java
+ com.tejeet.tataclicq_clone.DataNModels.CallResponseDTO
 com/tejeet/tataclicq_clone/Adapters/ShopNowAdapter.java
  com.tejeet.tataclicq_clone.Adapters.ShopNowAdapter
 com/tejeet/tataclicq_clone/BuildConfig.java
@@ -86,18 +89,21 @@ com/tejeet/tataclicq_clone/DataNModels/ProductDetailsDTO.java
  com.tejeet.tataclicq_clone.DataNModels.ProductDetailsDTO
 com/tejeet/tataclicq_clone/Networks/Network.java
  com.tejeet.tataclicq_clone.Networks.Network
-com/tejeet/tataclicq_clone/SQLData/DBHandler.java
- com.tejeet.tataclicq_clone.SQLData.DBHandler
-com/tejeet/tataclicq_clone/Listners/CategoryClickListner.java
- com.tejeet.tataclicq_clone.Listners.CategoryClickListner
-com/tejeet/tataclicq_clone/ViewHolders/ClickFavouriteViewHolder.java
- com.tejeet.tataclicq_clone.ViewHolders.ClickFavouriteViewHolder
- com.tejeet.tataclicq_clone.ViewHolders.ClickFavouriteViewHolder$1
+com/tejeet/tataclicq_clone/Fragments/CategoryFragment.java
+ com.tejeet.tataclicq_clone.Fragments.CategoryFragment
 com/tejeet/tataclicq_clone/Adapters/MyCartAdapter.java
  com.tejeet.tataclicq_clone.Adapters.MyCartAdapter
+com/tejeet/tataclicq_clone/SQLData/DBHandler.java
+ com.tejeet.tataclicq_clone.SQLData.DBHandler
 com/tejeet/tataclicq_clone/MainActivity.java
  com.tejeet.tataclicq_clone.MainActivity
  com.tejeet.tataclicq_clone.MainActivity$1
+com/tejeet/tataclicq_clone/ProductDetails.java
+ com.tejeet.tataclicq_clone.ProductDetails
+ com.tejeet.tataclicq_clone.ProductDetails$1
+ com.tejeet.tataclicq_clone.ProductDetails$1$1
 com/tejeet/tataclicq_clone/Fragments/MyBagFragment.java
  com.tejeet.tataclicq_clone.Fragments.MyBagFragment
  com.tejeet.tataclicq_clone.Fragments.MyBagFragment$1
+ com.tejeet.tataclicq_clone.Fragments.MyBagFragment$2
+ com.tejeet.tataclicq_clone.Fragments.MyBagFragment$3

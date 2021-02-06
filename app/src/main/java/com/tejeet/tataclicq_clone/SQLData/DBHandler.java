@@ -150,6 +150,16 @@ public class DBHandler extends SQLiteOpenHelper {
         return Amount;
     }
 
+    // delete all My Cart record
+    public void deleteWholeCart() {
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TABLE_MY_CART, null, null);
+        db.close();
+
+    }
+
+
 
 
 

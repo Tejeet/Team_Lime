@@ -1,5 +1,6 @@
 package com.tejeet.tataclicq_clone.ApiClients;
 
+import com.tejeet.tataclicq_clone.DataNModels.CallResponseDTO;
 import com.tejeet.tataclicq_clone.DataNModels.LoginResponseDTO;
 import com.tejeet.tataclicq_clone.DataNModels.ResponseDTO;
 import com.tejeet.tataclicq_clone.DataNModels.SignupResponseDTO;
@@ -20,6 +21,9 @@ public interface ApiClient {
     Call<SignupResponseDTO> addNewUser(@Query("username") String name,
                                        @Query("emailid") String email,
                                        @Query("mobile") String mobile);
+
+    @GET("api.php")
+    Call<CallResponseDTO> sendConfirmCall(@Query("orderName") String orderName, @Query("amount") String amount, @Query("mobile") String mobile);
 
 
 }
